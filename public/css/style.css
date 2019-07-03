@@ -1,0 +1,43 @@
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#titreLivre
+{
+    max-width: 1110px;
+    padding: 50px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/alaska-bg.jpg);
+}
+
+section
+{
+    max-width: 1110px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
