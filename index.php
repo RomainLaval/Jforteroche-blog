@@ -6,7 +6,6 @@ require('controller/frontend.php');
 //introspection php
 // check existe
 
-a
 $params = [];
 
 try {
