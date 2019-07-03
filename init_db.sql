@@ -1,26 +1,7 @@
-
-
-
 -- Ce fichier sert à initialiser la base de données
-
-
-
-
-
-
-
-
-
-
-
-
 
 CREATE DATABASE blog;
 USE blog;
-
-
-
-
 
 -- phpMyAdmin SQL Dump
 -- version 4.7.2
