@@ -35,9 +35,45 @@ a
     background-image: url(../images/alaska-bg.jpg);
 }
 
-section
-{
+section {
     max-width: 1110px;
     margin-right: auto!important;
     margin-left: auto!important;
+    margin-bottom: 20px;
+}
+
+/* Section commentaires */
+
+.validate, h2, .author, .commentaire {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+input, textarea {
+  border-radius: 10px;
+  border:0px;
+  color: white;
+  background-color:grey;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  width: 60%;
+}
+
+.comment-ind {
+  padding:5px 0 5px 10px;
+  border: 1px;
+  border-radius: 5px;
+  background-color:grey;
+  color:white;
+  margin-bottom: 5px;
+}
+
+.date-comment {
+  font-size:x-small;
+  font-style: italic;
+}
+
+.date-title {
+  font-size:small;
+  font-style: italic;
+  padding: 0;
 }

@@ -1,8 +1,9 @@
 <?php $title = htmlspecialchars($post['title']); ?>
 
 <?php ob_start(); ?>
-<h1> <?= htmlspecialchars($post['title']) ?>
-        <em>le <?= $post['creation_date_fr'] ?></em></h1>
+<h1> <?= htmlspecialchars($post['title']) ?></h1>
+<span class="date-title">le <?= $post['creation_date_fr'] ?></span>
+
 
 <div class="news">
 
@@ -11,28 +12,32 @@
     </p>
 </div>
 
-<h2 id="comments">Commentaires</h2>
+<section id="comments" class="text-center">
+  <h2>Commentaires</h2>
 
 <form action="index.php?action=addComment&amp;id=<?= $post['id'] ?>" method="post">
     <div>
-        <label for="author">Auteur</label><br />
+        <label class="author" for="author">Auteur</label><br />
         <input type="text" id="author" name="author" />
     </div>
     <div>
-        <label for="comment">Commentaire</label><br />
+        <label class="commentaire" for="comment">Commentaire</label><br />
         <textarea id="comment" name="comment"></textarea>
     </div>
     <div>
-        <input type="submit" />
+        <input class="validate" type="submit" />
     </div>
 </form>
+</section>
 
 <?php
 while ($comment = $comments->fetch())
 {
 ?>
-    <p><strong><?= htmlspecialchars($comment['author']) ?></strong> le <?= $comment['comment_date_fr'] ?></p>
+    <div class="comment-ind">
+      <p><strong><?= htmlspecialchars($comment['author']) ?></strong><span class="date-comment"> le <?= $comment['comment_date_fr'] ?></span></p>
     <p><?= nl2br(htmlspecialchars($comment['comment'])) ?></p>
+  </div>
 <?php
 }
 ?>
