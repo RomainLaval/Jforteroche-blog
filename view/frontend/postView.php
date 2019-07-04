@@ -5,13 +5,13 @@
         <em>le <?= $post['creation_date_fr'] ?></em></h1>
 
 <div class="news">
-    
+
     <p>
         <?= nl2br(htmlspecialchars($post['content'])) ?>
     </p>
 </div>
 
-<h2>Commentaires</h2>
+<h2 id="comments">Commentaires</h2>
 
 <form action="index.php?action=addComment&amp;id=<?= $post['id'] ?>" method="post">
     <div>

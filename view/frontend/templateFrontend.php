@@ -11,12 +11,12 @@
         <script src="https://use.fontawesome.com/4aa4a8c4ae.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
-        
+
     <body>
-    <?php 
+    <?php
 	include('view/frontend/header.php');
 ?>
-   
+
         <h1 id="titreLivre">Billet simple pour l'Alaska</h1>
 
     <section class="row middle-content">
@@ -25,14 +25,14 @@
         </article>
         <aside class="col-md-4" id="auteur">
             <h1>À propos de Jean Forteroche</h1>
-            <p><img src="/projet-4-php/public/images/jean-forteroche-fake.png" alt="portrait Jean forteroche" /></p>
+            <p><img src="/projet-4-php/github/Jforteroche-blog/public/images/jean-forteroche-fake.png" alt="portrait Jean forteroche" /></p>
             <p>Auteur à succès, Jean Forteroche réinvente le Road Trip novel dans les terres sauvages de l'Alaska</p>
             <p>Volontairement angoissant et prenant, Jean vous invite à suivre les aventures au fil de l'écriture de son livre en vous livrant régulièrement les chapitres qu'il écrit</p>
         </aside>
     </section>
     </div>
 
-    <?php 
+    <?php
 	include('view/frontend/footer.php');
 ?>
 </body>
