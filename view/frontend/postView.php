@@ -1,4 +1,4 @@
-<?php $title = htmlspecialchars($post['title']); ?>
+<?php $title = htmlspecialchars($post['title']) . ' - Billet simple pour l\'Alaska'; ?>
 
 <?php ob_start(); ?>
 <h1> <?= htmlspecialchars($post['title']) ?></h1>

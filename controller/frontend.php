@@ -6,13 +6,11 @@ require('model/frontendModel.php');
 
 function listPosts()
 {
-
     $posts = getPosts();
 
     view('frontend/listPostsView',[
         'posts' => $posts
     ]);
-
 }
 
 function post($params)
@@ -24,6 +22,11 @@ function post($params)
         'post' => $post,
         'comments' => $comments
     ]);
+}
+
+function contact()
+{
+   view('frontend/Contact',['']);
 }
 
 

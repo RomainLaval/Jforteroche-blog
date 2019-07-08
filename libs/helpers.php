@@ -6,4 +6,4 @@ function view ($path,$args){
     require('view/'.$path.'.php');
     $content = ob_get_clean();
     require('view/frontend/templateFrontend.php');
-}
+} 

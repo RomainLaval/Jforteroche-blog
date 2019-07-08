@@ -17,7 +17,7 @@
                             <a class="nav-link" href="#auteur">L'Auteur</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nous Contacter</a>
+                            <a class="nav-link" href="index.php?action=Contact">Nous Contacter</a>
                         </li>
                     </ul>
                 <a class="nav-link" href="#">Connexion</a>
