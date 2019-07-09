@@ -24,6 +24,7 @@ function post($params)
     ]);
 }
 
+// Visualisation de la page contact
 function contact()
 {
    view('frontend/Contact',['']);

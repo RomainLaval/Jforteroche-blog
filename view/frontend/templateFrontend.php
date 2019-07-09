@@ -19,14 +19,10 @@
 
       <h1 id="titreLivre">Billet simple pour l'Alaska</h1>
         <section class="row middle-content">
-    	     <article class="col-md-8">
+
              <?= $content ?>
-           </article>
-           <aside class="col-md-4" id="auteur">
-             <?php
-              include('view/frontend/author.php');
-              ?>
-            </aside>
+
+
         </section>
 
     <?php

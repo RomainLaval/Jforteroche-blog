@@ -1,5 +1,6 @@
 
-
+<section class="row middle-content">
+  <article class="col-md-12">
 <h2 class="TitrePage" > Contact </h2>
 <hr>
 
@@ -22,3 +23,5 @@
                 </br>
     </form>
 </div>
+</article>
+</section>

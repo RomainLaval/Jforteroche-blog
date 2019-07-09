@@ -1,6 +1,8 @@
 <?php $title = htmlspecialchars($post['title']) . ' - Billet simple pour l\'Alaska'; ?>
 
 <?php ob_start(); ?>
+<section class="row middle-content">
+  <article class="col-md-12">
 <h1> <?= htmlspecialchars($post['title']) ?></h1>
 <span class="date-title">le <?= $post['creation_date_fr'] ?></span>
 
@@ -42,3 +44,5 @@ while ($comment = $comments->fetch())
 }
 ?>
 <?php $content ?>
+</article>
+</section>
