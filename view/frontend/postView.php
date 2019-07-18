@@ -1,4 +1,4 @@
-<?php $title = htmlspecialchars($post['title']) . ' - Billet simple pour l\'Alaska'; ?>
+<?php $title = htmlspecialchars(''$post['title'])'' . ' - Billet simple pour l\'Alaska'; ?>
 
 <?php ob_start(); ?>
 <section class="row middle-content">
