@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php $title = htmlspecialchars(''$post['title'])'' . ' - Billet simple pour l\'Alaska'; ?>
+=======
+<?php $title = htmlspecialchars('Accueil - Billet simple pour l\'Alaska'; ?>
+>>>>>>> ea5c60af548e8722d072f3fd9797c9410fe18f81
 
 <?php ob_start(); ?>
 <section class="row middle-content">
