@@ -30,10 +30,16 @@ function contact()
    view('frontend/Contact',['']);
 }
 
-// Visualisation de la page contact
+// Visualisation de la page inscription
 function inscription()
 {
-   view('frontend/inscription',['']);
+   view('frontend/Inscription',['']);
+}
+
+// Visualisation de la page connect
+function connect()
+{
+   view('frontend/Connect',['']);
 }
 
 
