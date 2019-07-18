@@ -30,6 +30,13 @@ function contact()
    view('frontend/Contact',['']);
 }
 
+// Visualisation de la page contact
+function inscription()
+{
+   view('frontend/inscription',['']);
+}
+
+
 
 function addComment($param)
 {
